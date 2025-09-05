@@ -110,6 +110,7 @@ module Top();
     check( 'x, 'x, 'x, 'x );
     check( 'x,  1,  0, 'x );
     check(  1,  1, 'x,  1 );
+    check('67); // idk
 
     t.test_case_end();
   endtask
